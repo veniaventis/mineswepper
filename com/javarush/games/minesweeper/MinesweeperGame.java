@@ -43,12 +43,10 @@ public class MinesweeperGame extends Game {
                 }
                 gameField[y][x] = new GameObject(x, y, isMine);
                 setCellColor(x, y, Color.ORANGE);
-//                setCellValue(x, y," ");
 
             }
         }
-//        isGameStopped = false;
-//        setCellValue(x,y," ");
+
         countFlags = countMinesOnField;
         countMineNeighbors();
     }
